@@ -32,7 +32,7 @@
                     </ext-container>
 
                     <!-- notifications subscribe -->
-                    <NotificatiosSubscribeButton aclId="-1" ui="action"/>
+                    <NotificatiosSubscribeButton :aclId="-1" ui="action"/>
 
                     <!-- users -->
                     <ext-button text="Show users" ui="action" @tap="showUsersDialog"/>
@@ -54,6 +54,8 @@
                         <ext-filebutton text="Upload file" ui="action" @change="_uploadFile"/>
 
                         <ext-button text="Download file" ui="action" @tap="_downloadFile"/>
+
+                        <ext-button text="Download file API" ui="action" @tap="_downloadFileApi"/>
                     </ext-container>
                 </ext-panel>
             </ext-panel>
@@ -173,6 +175,18 @@ export default {
             console.log( "download:", res + "", res.data?.url );
 
             this.$toast( res );
+
+            this.$utils.saveAs( res.data.url );
+        },
+
+        async _downloadFileApi ( e ) {
+            const res = await this.$api.download( "test/download-api" );
+
+            console.log( "download:", res.status, res.data );
+
+            this.$toast( res );
+
+            this.$utils.saveAs( res.data );
         },
 
         async onToggleChange ( e ) {

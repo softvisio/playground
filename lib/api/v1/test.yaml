@@ -29,6 +29,10 @@ methods:
   download:
     title: Test download
 
+  download-api:
+    title: Test download via API
+    connectionType: http
+
   send-notification:
     title: Send test notification
     permission: users
