@@ -28,7 +28,7 @@ methods:
           type: object
           properties:
             file:
-              message: { maxContentLength: 50 MB, contentType: ["text/plain", "text/html"] }
+              attachment: { maxContentLength: 50 MB, contentType: ["text/plain", "text/html"] }
             options: { type: object }
           additionalProperties: false
           required: [file]
