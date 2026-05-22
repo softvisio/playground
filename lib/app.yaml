@@ -3,7 +3,7 @@ dependencies:
   - "@corejslib/app-text-search"
 
 services:
-  api:
+  main:
     components:
       acme: false
       api: true
@@ -15,7 +15,7 @@ services:
       threads: true
       webpack: true
 
-defaultService: api
+defaultService: main
 
 components:
   acl:
