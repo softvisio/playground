@@ -63,7 +63,7 @@ Fixes:
 - fix: \_new renamed to \_init
 - fix: #app import removed
 - fix: acl refactored
-- fix: add NODE_PRESERVE_SYMLINKS_MAIN=1 to the npm serve script
+- fix: add NODE\_PRESERVE\_SYMLINKS\_MAIN=1 to the npm serve script
 - fix: amcharts data event removed
 - fix: amcharts5
 - fix: amcharts5 import
@@ -120,7 +120,7 @@ Fixes:
 - fix: deps
 - fix: development panel
 - fix: docker autobuild tags
-- fix: docker autobuild_tags renamed to auto_tags
+- fix: docker autobuild\_tags renamed to auto\_tags
 - fix: docker base image
 - fix: docker command
 - fix: docker devel tag removed
