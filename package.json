@@ -25,6 +25,6 @@
     },
     "dependencies": {
         "@corejslib/app-text-search": "^2.0.0",
-        "@corejslib/core": "^7.101.6"
+        "@corejslib/core": "^8.0.0"
     }
 }
