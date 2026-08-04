@@ -32,9 +32,9 @@
         }
     },
     "scripts": {
-        "build": "cwebpack build --mode=production",
-        "build-cordova": "cwebpack build --mode=production --cordova",
-        "start": "cwebpack dev --mode=development"
+        "build": "zwebpack build --mode=production",
+        "build-cordova": "zwebpack build --mode=production --cordova",
+        "start": "zwebpack dev --mode=development"
     },
     "devDependencies": {
         "@corejslib/vue-ext": "^8.0.0"
