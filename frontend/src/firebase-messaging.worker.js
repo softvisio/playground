@@ -1,5 +1,5 @@
-export default Super =>
-    class extends ( Super || class {} ) {
+export default Super => {
+    return class extends ( Super || class {} ) {
         async onBackgoundMessage ( message ) {
             return super.onBackgoundMessage( message );
         }
@@ -8,3 +8,4 @@ export default Super =>
             return super.onClick( event );
         }
     };
+};
