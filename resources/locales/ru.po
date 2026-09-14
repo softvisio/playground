@@ -13,23 +13,20 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 
 #: ../../lib/app.yaml
-#, fuzzy
 msgid "ACL test"
 msgstr "тест ACL"
 
 #: ../../lib/api/v1/test.js:76:33
-#, fuzzy
 msgid "ACL Test"
-msgstr "ACL-тест"
+msgstr "Тест ACL"
 
 #: ../../lib/api/v1/test.js:60:33 ../../lib/app.yaml
 msgid "Test"
 msgstr "Тест"
 
 #: ../../lib/app.yaml
-#, fuzzy
 msgid "Test notifications"
-msgstr "Тестовые уведомления"
+msgstr "Тестовые уведомлений"
 
 #: ../../lib/app.yaml
 #, fuzzy
@@ -48,7 +45,6 @@ msgstr ""
 "Дата: ${n}\n"
 
 #: ../../lib/components/telegram-test-bot/config.yaml
-#, fuzzy
 #~ msgid "Bot read-only permissions"
 #~ msgstr "Разрешения бота только на чтение"
 
