@@ -24,8 +24,8 @@
         "start": "node bin/main.js run --mode=development"
     },
     "dependencies": {
+        "@corejslib/app": "^0.0.1",
         "@corejslib/app-telegram": "^1.0.0",
-        "@corejslib/app-text-search": "^2.0.0",
-        "@corejslib/core": "^8.0.0"
+        "@corejslib/app-text-search": "^2.0.0"
     }
 }

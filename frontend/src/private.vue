@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import constants from "#core/app/constants";
+import constants from "@corejslib/app/constants";
 import AclDialog from "#vue/components/acl/dialog";
 import UsersDialog from "#vue/components/administration/users/dialog";
 import AppTitle from "#vue/components/application/title";
