@@ -1,5 +1,6 @@
 dependencies:
   - "@corejslib/core"
+  - "@corejslib/app-telegram"
   - "@corejslib/app-text-search"
 
 services:
