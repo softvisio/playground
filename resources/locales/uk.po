@@ -13,12 +13,10 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 
 #: ../../lib/app.yaml
-#, fuzzy
 msgid "ACL test"
 msgstr "Тест ACL"
 
 #: ../../lib/api/v1/test.js:76:33
-#, fuzzy
 msgid "ACL Test"
 msgstr "Тест ACL"
 
@@ -27,14 +25,12 @@ msgid "Test"
 msgstr "Тест"
 
 #: ../../lib/app.yaml
-#, fuzzy
 msgid "Test notifications"
-msgstr "Тестові повідомлення"
+msgstr "Тестові сповіщення"
 
 #: ../../lib/app.yaml
-#, fuzzy
 msgid "Test scope"
-msgstr "Обсяг тесту"
+msgstr "Область тесту"
 
 #: ../../lib/api/v1/test.js:62:27 ../../lib/api/v1/test.js:78:27
 #, javascript-format
@@ -43,26 +39,6 @@ msgid ""
 "\n"
 "Date: ${n}\n"
 msgstr ""
-"Кінцева точка запиту тестового сповіщення пропонує серверу App Store надіслати вашому серверу сповіщення з TEST notificationType.\n"
+"Ендпойнт Request a Test Notification просить сервер App Store надіслати вашому серверу сповіщення з типом сповіщення TEST.\n"
 "\n"
 "Дата: ${n}\n"
-
-#: ../../lib/components/telegram-test-bot/config.yaml
-#, fuzzy
-#~ msgid "Bot read-only permissions"
-#~ msgstr "Дозволи бота лише на читання"
-
-#: ../../lib/components/telegram-test-bot/bot/commands/start.js:30:40
-#: ../../lib/components/telegram-test-bot/bot/commands/start.js:34:40
-#, fuzzy
-#~ msgid "open localhost"
-#~ msgstr "відкрити локальний хост"
-
-#: ../../lib/components/telegram-test-bot/config.yaml
-#~ msgid "Read-only"
-#~ msgstr "Лише для читання"
-
-#: ../../lib/components/telegram-test-bot/bot/commands/start.js:26:40
-#, fuzzy
-#~ msgid "some action"
-#~ msgstr "якась дія"
