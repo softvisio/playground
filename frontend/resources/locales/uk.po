@@ -32,39 +32,3 @@ msgstr "Підписані користувачі"
 #: ../../src/private/amcharts.panel.vue:60:24
 msgid "Total subscribed users"
 msgstr "Загальна кількість підписаних користувачів"
-
-#: ../../src/private.vue:77:79
-#, fuzzy
-#~ msgid "Ext charts"
-#~ msgstr "Додаткові діаграми"
-
-#: ../../src/private.vue:72:79
-#, fuzzy
-#~ msgid "Froala"
-#~ msgstr "Фроала"
-
-#: ../../src/telegram-test-bot/panel.vue:4:72
-#~ msgid "Info"
-#~ msgstr "Інфо"
-
-#: ../../src/private.vue:19:79
-#, fuzzy
-#~ msgid "Main"
-#~ msgstr "Головна"
-
-#: ../../src/private.vue:14:79
-#, fuzzy
-#~ msgid "Telegram"
-#~ msgstr "Телеграма"
-
-#: ../../src/telegram-test-bot/component.js:11:15
-#~ msgid "Test bot"
-#~ msgstr "Тестовий бот"
-
-#: ../../src/telegram-test-bot/component.js:19:15
-#~ msgid "Test bot, for development."
-#~ msgstr "Тестовий бот, для розробки."
-
-#: ../../src/telegram-test-bot/panel.vue:9:68
-#~ msgid "Users"
-#~ msgstr "Користувачі"
