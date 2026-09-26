@@ -1,0 +1,5 @@
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=(0);\n"
+"X-Search-Path: /lib/**\n"
