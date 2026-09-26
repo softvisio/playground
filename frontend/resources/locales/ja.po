@@ -3,3 +3,24 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=(0);\n"
 "X-Search-Path: /src/**\n"
+
+#: ../../src/private.vue:69:79
+msgid "API status"
+msgstr "APIステータス"
+
+#: ../../src/private.vue:79:79
+msgid "ExtJS charts"
+msgstr "ExtJSチャート"
+
+#: ../../src/private.vue:113:28
+msgid "Settings"
+msgstr "設定"
+
+#: ../../src/private/amcharts.panel.vue:66:33
+msgid "Subscribed users"
+msgstr "購読者"
+
+#: ../../src/private/amcharts.panel.vue:35:24
+#: ../../src/private/amcharts.panel.vue:60:24
+msgid "Total subscribed users"
+msgstr "購読者総数"
