@@ -41,7 +41,7 @@ components:
     name: playground
 
   locales:
-    locales: [en-GB, en-US, uk-UA, ru-RU, ja_JP]
+    locales: [en-GB, en-US, uk-UA, ru-RU, ja-JP]
 
   notifications:
     types:
