@@ -13,7 +13,8 @@ msgstr "Тест ACL"
 msgid "ACL Test"
 msgstr "Тест ACL"
 
-#: ../../lib/api/v1/test.js:60:33 ../../lib/app.yaml
+#: ../../lib/api/v1/test.js:60:33
+#: ../../lib/app.yaml
 msgid "Test"
 msgstr "Тест"
 
@@ -25,7 +26,8 @@ msgstr "Тестові сповіщення"
 msgid "Test scope"
 msgstr "Область тестування"
 
-#: ../../lib/api/v1/test.js:62:27 ../../lib/api/v1/test.js:78:27
+#: ../../lib/api/v1/test.js:62:27
+#: ../../lib/api/v1/test.js:78:27
 #, javascript-format
 msgid ""
 "The Request a Test Notification endpoint prompts the App Store server to send your server a notification with the TEST notificationType.\n"

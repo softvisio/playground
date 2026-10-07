@@ -1,6 +1,7 @@
 msgid ""
 msgstr ""
 "Language: ru\n"
+"PO-Revision-Date: 2026-10-07T20:28:11.607Z\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
@@ -23,4 +24,4 @@ msgstr "Подписавшиеся пользователи"
 #: ../../src/private/amcharts.panel.vue:35:24
 #: ../../src/private/amcharts.panel.vue:60:24
 msgid "Total subscribed users"
-msgstr "Всего подписанных пользователей"
+msgstr "Всего подписчиков"
