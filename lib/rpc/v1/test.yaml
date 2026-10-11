@@ -28,7 +28,9 @@ methods:
           type: object
           properties:
             file:
-              attachment: { maxContentLength: 50 MB, contentType: ["text/plain", "text/html"] }
+              attachment:
+                maxContentLength: 50 MB
+                contentType: ["text/plain", "text/html", "text/javascript"]
             options: { type: object }
           additionalProperties: false
           required: [file]
