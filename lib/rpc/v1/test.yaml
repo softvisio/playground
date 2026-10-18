@@ -34,3 +34,13 @@ methods:
             options: { type: object }
           additionalProperties: false
           required: [file]
+
+  download:
+    title: Test download
+
+  download-api:
+    title: Test download via API
+    connectionType: http
+    params:
+      - name: path
+        schema: { type: string }
