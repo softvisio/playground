@@ -37,6 +37,9 @@ components:
             channels:
               telegram: { editable: false, subscribed: true }
 
+  dbh:
+    enabled: true
+
   env:
     name: playground
 
