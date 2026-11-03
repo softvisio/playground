@@ -110,14 +110,15 @@ export default {
         },
 
         async refresh () {
-            const data = [],
-                date = new Date( "2023-01-01" );
+            const data = [];
+
+            let instant = Temporal.Instant.from( "2023-01-01T00:00:00Z" );
 
             for ( let n = 0; n < 5; n++ ) {
-                date.setHours( date.getHours() + 1 );
+                instant = instant.add( { "hours": 1 } );
 
                 data.push( {
-                    "date": date.toISOString(),
+                    "date": instant.toString(),
                     "value1": Math.floor( Math.random() * 100 ),
                 } );
             }
