@@ -1,7 +1,6 @@
 services:
   playground:
     image: ghcr.io/softvisio/playground
-    depends_on: [postgresql]
     init: true
     stop_grace_period: 5m
 
