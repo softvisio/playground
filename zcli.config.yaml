@@ -19,9 +19,3 @@ docs:
   externalTypes:
     - corejslib/core
     - corejslib/result
-
-  app:
-    api:
-      url: wss://localhost/
-    rpc:
-      url: ws://localhost:81/
