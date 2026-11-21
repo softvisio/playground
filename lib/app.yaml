@@ -54,5 +54,3 @@ components:
         channels:
           internal: { editable: true }
           push: { editable: true }
-
-config: ~
