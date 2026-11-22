@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Language: ru\n"
-"PO-Revision-Date: 2026-10-06T23:18:11.257Z\n"
+"PO-Revision-Date: 2026-11-22T00:10:10.704236084Z\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Search-Path: /lib/**\n"
 
@@ -9,12 +9,12 @@ msgstr ""
 msgid "ACL test"
 msgstr "Тест ACL"
 
-#: ../../lib/api/v1/test.js:76:33
+#: ../../lib/components/playground/api/v1/test.js:76:33
 msgid "ACL Test"
 msgstr "Тест ACL"
 
-#: ../../lib/api/v1/test.js:60:33
 #: ../../lib/app.yaml
+#: ../../lib/components/playground/api/v1/test.js:60:33
 msgid "Test"
 msgstr "Тест"
 
@@ -26,8 +26,8 @@ msgstr "Тестовые уведомления"
 msgid "Test scope"
 msgstr "Область тестирования"
 
-#: ../../lib/api/v1/test.js:62:27
-#: ../../lib/api/v1/test.js:78:27
+#: ../../lib/components/playground/api/v1/test.js:62:27
+#: ../../lib/components/playground/api/v1/test.js:78:27
 #, javascript-format
 msgid ""
 "The Request a Test Notification endpoint prompts the App Store server to send your server a notification with the TEST notificationType.\n"
