@@ -9,7 +9,7 @@ services:
       placement:
         max_replicas_per_node: 3
 
-    command: run
+    command: start
 
     secrets:
       - { source: playground_env.yaml, target: /var/local/package/env.yaml }
